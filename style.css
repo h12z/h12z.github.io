@@ -1,0 +1,15 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#navbar {
+    position: fixed;
+    display: flex;
+    height: 20px;
+    width: 100%;
+}
+#body {
+    position: absolute;
+    margin-top: 20px;
+}
