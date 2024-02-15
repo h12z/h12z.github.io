@@ -1,7 +1,27 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --text: rgb(15, 26, 18);
+        --background: rgb(246, 249, 247);
+        --primary: rgb(52, 91, 62);
+        --secondary: rgb(142, 190, 183);
+        --accent: rgb(82, 142, 140);
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: rgb(228, 239, 231);
+        --background: rgb(5, 8, 6);
+        --primary: rgb(165, 203, 175);
+        --secondary: rgb(65, 113, 106);
+        --accent: rgb(114, 174, 172);
+    }
+}
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    color: var(--text);
 }
 #navbar {
     position: fixed;
@@ -12,4 +32,6 @@
 #body {
     position: absolute;
     margin-top: 20px;
+    height: 100vh;
+    background: linear-gradient(var(--background), var(--accent));
 }
