@@ -22,7 +22,6 @@
     margin: 0;
     text-decoration: none;
     color: var(--text);
-    background: linear-gradient(var(--background), var(--secondary));
 }
 #navbar {
     position: fixed;
@@ -30,6 +29,7 @@
     height: 20px;
     width: 100%;
     z-index: 10;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 #body {
     z-index: 0;
