@@ -34,5 +34,6 @@
     position: absolute;
     margin-top: 20px;
     height: 100vh;
-    background: linear-gradient(var(--background), var(--secondary));
+    width: 100%;
+    background-image: linear-gradient(var(--background), var(--secondary));
 }
