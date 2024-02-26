@@ -22,7 +22,7 @@
     margin: 0;
     text-decoration: none;
     color: var(--text);
-    background: linear-gradient(--background, --secondary);
+    background: linear-gradient(var(--background), var(--secondary));
 }
 #navbar {
     position: fixed;
