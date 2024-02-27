@@ -45,3 +45,18 @@
     width: 100%;
     background-image: linear-gradient(var(--background), var(--secondary));
 }
+
+#bodycmc {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(var(--background), var(--secondary));
+    display: grid;
+    place-items: center;
+}
+
+#downloadbutton {
+    height: 50px;
+    width: 70px;
+}
