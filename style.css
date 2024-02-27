@@ -57,8 +57,10 @@
 }
 
 #downloadbutton {
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 200px;
     background-image: linear-gradient(var(--primary), var(--accent));
     border-radius: 10px;
+    display: grid;
+    place-content: center;
 }
