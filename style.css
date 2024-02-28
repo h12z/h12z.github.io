@@ -78,4 +78,5 @@
     height: 50%;
     width: 33,33333%;
     border-radius: 10px;
+    background-color: var(--background);
 } 
