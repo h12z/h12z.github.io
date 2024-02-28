@@ -67,3 +67,15 @@
     place-content: center;
     color: var(--background);
 }
+
+#maincarddiv {
+    display: grid;
+    width: 100%;
+    height: 100% - 200px;
+}
+
+.cards {
+    height: 50%;
+    width: 33,33333%;
+    border-radius: 10px;
+} 
