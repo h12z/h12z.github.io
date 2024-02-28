@@ -1,5 +1,5 @@
 function download() {
 
-    window.open("google.com")
+    window.open("https://www.google.com/")
 
 }
