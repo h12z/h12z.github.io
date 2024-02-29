@@ -79,4 +79,9 @@
     width: 33,33333%;
     border-radius: 10px;
     background-color: var(--background);
-} 
+}
+
+#paypal-button-container {
+    margin-top: 50%;
+    margin-left: 50%;
+}
