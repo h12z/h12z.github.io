@@ -72,12 +72,16 @@
     display: grid;
     width: 100%;
     height: calc(100vh - 200px);
-    background-color: var(--background);
+    margin-top: 200px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .cards {
-    height: 50%;
-    width: 33%;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    padding: 1px;
     border-radius: 10px;
     background-color: var(--background);
 }
