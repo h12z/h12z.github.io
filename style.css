@@ -71,7 +71,7 @@
 #maincarddiv {
     display: grid;
     width: 100%;
-    height: calc(100% - 200px);
+    height: calc(100vh - 200px);
     background-color: var(--background);
 }
 
