@@ -1,0 +1,25 @@
+            - name: xiehuan-ssh
+  # You may pin to the exact commit or the version.
+  # uses: xiehuan123/xiehuan-ssh@ad9211deddb8d56fdf7b07bf3b801ec62d8e2806
+  uses: xiehuan123/xiehuan-ssh@master
+  with:
+    # ssh remote host
+    host: 94.252.87.4
+    # ssh remote port
+    port: # optional, default is 22
+    # ssh remote user
+    user: h12z
+    # content of ssh private key. ex raw content of ~/.ssh/id_rsa
+    key: # optional
+    # ssh remote password
+    pass: DPf0GSaA # optional
+    # connection timeout to remote host
+    connect_timeout: # optional, default is 30s
+    # source to copy
+    local: # optional
+    # destination for copy
+    remote: # optional
+    # scp from local to remote
+    scp: # optional
+    # script to run on remote host
+    script: /home/h12z/deploy.sh # optional
