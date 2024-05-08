@@ -1,0 +1,10 @@
+name: Deploy
+run-name: ${{github.actor}}
+
+on: [push]
+jobs:
+    Deploy:
+        runs-on: self-hosted
+        steps:
+            - run: sudo sh /home/h12z/delpoy.sh
+            
