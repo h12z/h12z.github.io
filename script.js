@@ -1,5 +1,5 @@
-function download() {
+function card1() {
 
-    window.open("https://www.google.com/")
+    window.open("https://github.com/h12z/MinecraftLauncherLibrary")
 
 }
