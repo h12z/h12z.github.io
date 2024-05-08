@@ -6,5 +6,5 @@ jobs:
     Deploy:
         runs-on: self-hosted
         steps:
-            - run: sh /home/h12z/delpoy.sh
+            - run: sudo sh /home/h12z/delpoy.sh
             
