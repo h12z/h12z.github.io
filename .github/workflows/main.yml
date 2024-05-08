@@ -6,6 +6,5 @@ jobs:
     Deploy:
         runs-on: self-hosted
         steps:
-            - run: sudo rm -r /var/www/h12z
             - run: git clone https://github.com/h12z/h12z.github.io.git:h12z -c /var/www/
             
