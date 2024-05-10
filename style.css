@@ -86,7 +86,7 @@
     border-radius: 10px;
 
     opacity: 75%;
-    overflow: hidden;
+    overflow: auto;
 
     background-color: var(--background);
     transition: all 250ms;
@@ -104,14 +104,15 @@
 
 .cards h1 {
 
-    position: absolute;
     margin: 30px;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
 
 }
 
 .cards p {
 
-    position: absolute;
     margin: 80px 30px 30px;
     word-wrap: break-word;
     white-space: -moz-pre-wrap;
