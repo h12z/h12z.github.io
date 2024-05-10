@@ -16,6 +16,7 @@
         --accent: rgb(114, 174, 172);
     }
 }
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
@@ -74,7 +75,7 @@
     height: calc(100vh - 200px);
     margin-top: 200px;
     grid-template-rows: 50% 50%;
-    grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
+    grid-template-columns: 50% 50%;
     overflow: hidden;
 }
 
@@ -98,21 +99,30 @@
     height: calc(100% + 4px);
     margin-left: -2px;
     margin-top: -2px;
-    opacity: 100%;
+    opacity: 90%;
 
 }
 
 .cards h1 {
 
-    position: absolute;
-    margin: 30px;
+    position: relative;
+    margin: 5%;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+    pointer-events: none;
 
 }
 
 .cards p {
 
-    position: absolute;
-    margin: 80px 30px 30px;
+    position: relative;
+    margin: 5% 5%;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+    pointer-events: none;
+    font-size: 110%;
 
 }
 
@@ -121,31 +131,142 @@
     position: absolute;
     overflow: hidden;
 
-    width: 35.65%;
+    width: 54.35%;
     opacity: 50%;
 
-    margin-top: -26px;
-    margin-left: -26px;
+    margin-top: -2.4%;
+    margin-left: -2.4%;
 
-    mask: linear-gradient(rgba(0, 0, 0, 1), 1%, rgba(0, 0, 0, 0));
+    mask: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 35%);
     transition: all 250ms;
 
 }
 
 .cards:hover img {
 
-    width: 36.43%;
+    width: 55%;
 
-}
-
-#paypal-button-container {
-    margin: 25%;
-    width: 50%;
-    height: 50%;
 }
 
 #contact {
     margin: 25%;
     width: 50%;
     height: 50%;
+}
+
+
+
+#maintutorialcarddiv {
+    display: grid;
+    width: 100%;
+    height: calc(100vh - 200px);
+    margin-top: 200px;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
+
+.tutorialcardscards {
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    margin-left: 4px;
+    margin-top: 4px;
+    border-radius: 10px;
+
+    opacity: 75%;
+    overflow: hidden;
+
+    background-color: var(--background);
+    transition: all 250ms;
+}
+
+.tutorialcardscards:hover {
+
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    margin-left: -2px;
+    margin-top: -2px;
+    opacity: 90%;
+
+}
+
+.tutorialcardscards h1 {
+
+    position: relative;
+    margin: 5%;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+    pointer-events: none;
+
+}
+
+.tutorialcardscards p {
+
+    position: relative;
+    margin: 5% 5%;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+    pointer-events: none;
+    font-size: 110%;
+
+}
+
+.tutorialcardscards img {
+
+    position: absolute;
+    overflow: hidden;
+
+    width: 54.35%;
+    opacity: 50%;
+
+    margin-top: -2.4%;
+    margin-left: -2.4%;
+
+    mask: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 35%);
+    transition: all 250ms;
+
+}
+
+.tutorialcardscards:hover img {
+
+    width: 55%;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #maincarddiv {
+        display: grid;
+        width: 100%;
+        height: calc(100vh - 200px);
+        margin-top: 200px;
+        grid-template-rows: 50% 50% 50% 50% 50% 50%;
+        grid-template-columns: 100%;
+        overflow: hidden;
+    }
+
+    .cards img {
+
+        position: absolute;
+        overflow: hidden;
+
+        width: 106.7%;
+        opacity: 50%;
+
+        margin-top: -4%;
+        margin-left: -4%;
+
+        mask: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 35%);
+        transition: all 250ms;
+
+    }
+
+    .cards:hover img {
+
+        width: 108%;
+
+    }
+
 }
