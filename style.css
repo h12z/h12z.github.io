@@ -113,6 +113,9 @@
 
     position: absolute;
     margin: 80px 30px 30px;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
 
 }
 
