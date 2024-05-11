@@ -23,6 +23,7 @@
     margin: 0;
     text-decoration: none;
     color: var(--text);
+    overflow-y: hidden;
 }
 #current {
     color: var(--accent);
