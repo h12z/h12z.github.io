@@ -74,7 +74,7 @@
     display: grid;
     width: 100%;
     height: calc(100vh - 200px);
-    margin-top: 200px;
+    margin-top: 21vh;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
     overflow: hidden;
