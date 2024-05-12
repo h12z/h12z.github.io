@@ -29,6 +29,7 @@
     color: var(--accent);
 }
 #navbar {
+    margin-top: 10px;
     position: fixed;
     display: flex;
     height: 20px;
